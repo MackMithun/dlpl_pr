@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="AppointmentService/AppointmentService.csproj" />
+  <Project Path="BillingService/BillingService.csproj" />
+  <Project Path="EmployeeService/EmployeeService.csproj" />
+  <Project Path="PatientService/PatientService.csproj" />
+  <Project Path="ReportService/ReportService.csproj" />
+  <Project Path="Saga_Pattern/Saga_Pattern.csproj" />
+</Solution>
