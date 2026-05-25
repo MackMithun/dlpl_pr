@@ -12,6 +12,7 @@ builder.Services.AddScoped<NpgsqlConnection>(sp =>
         builder.Configuration.GetConnectionString("DefaultConnection")));
 // Repository Registration
 builder.Services.AddScoped<IPatientGetData, PatientGetData>();
+builder.Services.AddScoped<IAppointmentService, AppointmentService>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("localhost",

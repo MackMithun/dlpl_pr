@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Saga_Pattern.Dapper.Repositories.PatientRepository.Interfaces;
 
 namespace Saga_Pattern.Controllers

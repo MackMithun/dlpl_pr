@@ -9,7 +9,6 @@ namespace Saga_Pattern.Dapper.Repositories.PatientRepository.Implementations
     public class PatientGetData : IPatientGetData
     {
         private readonly NpgsqlConnection _connection;
-
         public PatientGetData(NpgsqlConnection connection)
         {
             _connection = connection;
@@ -26,7 +25,7 @@ namespace Saga_Pattern.Dapper.Repositories.PatientRepository.Implementations
                 PatientQueries.GetPatientById,
                 new
                 {
-                    PatientId = id
+                    Patient_Id = id
                 });
             #pragma warning restore CS8603 // Possible null reference return.
         }

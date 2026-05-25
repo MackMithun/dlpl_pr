@@ -9,6 +9,6 @@
         public const string GetPatientById = @"
             SELECT *
             FROM patients
-            WHERE id = @Id";
+            WHERE patient_id = @patient_id";
     }
 }
